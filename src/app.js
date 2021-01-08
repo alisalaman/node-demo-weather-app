@@ -26,6 +26,8 @@ app.get('', (req, res) => {
     })
 })
 
+console.log('Test')
+
 app.get('/products', (req, res) => {
 
     if (!req.query.search) {
